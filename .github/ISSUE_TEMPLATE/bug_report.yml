@@ -1,0 +1,19 @@
+﻿name: Bug report
+description: Сообщить об ошибке
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что произошло?
+      description: Опиши ожидание vs реальность
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: Шаги воспроизведения
+  - type: input
+    id: tick
+    attributes:
+      label: Номер тика/сценарий

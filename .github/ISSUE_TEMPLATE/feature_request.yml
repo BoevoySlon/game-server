@@ -1,0 +1,11 @@
+﻿name: Feature request
+description: Предложить фичу
+title: "[Feat] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: goal
+    attributes: { label: Цель/метрика }
+  - type: textarea
+    id: spec
+    attributes: { label: Краткая спецификация }

@@ -1,0 +1,10 @@
+﻿{
+  "name": "igra-dev",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/pnpm:1": { "version": 9 }
+  },
+  "forwardPorts": [4000, 5173],
+  "postCreateCommand": "pnpm -v && node -v"
+}
